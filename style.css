@@ -20,8 +20,6 @@ body{
 /* header */
 
 
-
-
 /* footer */
 footer{
      background-color: #f3eee5
@@ -45,7 +43,7 @@ footer{
      font-weight: bold;
 }
 .icon-link:hover{
-     color: crimson;
+     color: rgb(20, 220, 87);
      font-weight: normal;
 }
 .custom-btn{

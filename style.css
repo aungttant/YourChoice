@@ -40,11 +40,7 @@ footer{
      font-weight: normal;
 }
 .icon-link{
-<<<<<<< HEAD
      color: rgb(5, 5, 5);
-=======
-     color: #000000;
->>>>>>> kyiphyuhninlwin
      font-size: 40px;
      font-weight: bold;
 }
@@ -53,11 +49,7 @@ footer{
      font-weight: normal;
 }
 .custom-btn{
-<<<<<<< HEAD
      color: rgb(5, 5, 5);
-=======
-     color: #000000;
->>>>>>> kyiphyuhninlwin
      font-weight: bold;
 }
 .custom-btn:hover{
@@ -65,7 +57,6 @@ footer{
      font-weight: normal;
      color: white;
 }
-<<<<<<< HEAD
 /* Home page */
 .circle-img{
      border-radius: 50%;
@@ -78,12 +69,12 @@ footer{
      background: rgb(228,228,228);
      background: radial-gradient(circle, rgba(228,228,228,1) 17%, rgba(208,205,253,1) 18%, rgba(220,213,255,1) 30%, rgba(228,227,229,1) 37%, rgba(206,203,255,1) 55%);
 }
-=======
+
+/* menu */
 .breadcrumb{
      background-color: #f3eee5;
 }
 .breadcrumb-item{
      color: #000000;
      
->>>>>>> kyiphyuhninlwin
 }

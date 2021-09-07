@@ -1,7 +1,7 @@
 *{
      margin: 0;
      padding: 0;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Open Sans", sans-serif;
 }
 body{
      background-color: #F3F4F6;
@@ -31,7 +31,7 @@ footer{
      background-color: #000000;
 }
 .footer-link-item{
-     color: black;
+     color: #000000;
      font-weight: bold;
      text-decoration-line: none;
 }
@@ -68,5 +68,13 @@ footer{
 .shadow-bg{
      background: rgb(228,228,228);
      background: radial-gradient(circle, rgba(228,228,228,1) 17%, rgba(208,205,253,1) 18%, rgba(220,213,255,1) 30%, rgba(228,227,229,1) 37%, rgba(206,203,255,1) 55%);
+}
 
+/* menu */
+.breadcrumb{
+     background-color: #f3eee5;
+}
+.breadcrumb-item{
+     color: #000000;
+     
 }

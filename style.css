@@ -40,7 +40,7 @@ footer{
      font-weight: normal;
 }
 .icon-link{
-     color: black;
+     color: rgb(5, 5, 5);
      font-size: 40px;
      font-weight: bold;
 }
@@ -49,11 +49,24 @@ footer{
      font-weight: normal;
 }
 .custom-btn{
-     color: black;
+     color: rgb(5, 5, 5);
      font-weight: bold;
 }
 .custom-btn:hover{
      background-color: crimson;
      font-weight: normal;
      color: white;
+}
+/* Home page */
+.circle-img{
+     border-radius: 50%;
+}
+.icon-style{
+     color: rgb(5, 5, 5);
+     font-size: 30px;
+}
+.shadow-bg{
+     background: rgb(228,228,228);
+     background: radial-gradient(circle, rgba(228,228,228,1) 17%, rgba(208,205,253,1) 18%, rgba(220,213,255,1) 30%, rgba(228,227,229,1) 37%, rgba(206,203,255,1) 55%);
+
 }

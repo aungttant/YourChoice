@@ -69,6 +69,9 @@ footer{
      background: rgb(228,228,228);
      background: radial-gradient(circle, rgba(228,228,228,1) 17%, rgba(208,205,253,1) 18%, rgba(220,213,255,1) 30%, rgba(228,227,229,1) 37%, rgba(206,203,255,1) 55%);
 }
+.height-5{
+     height: 250px;
+}
 
 /* menu */
 .breadcrumb{

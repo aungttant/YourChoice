@@ -11,3 +11,4 @@ Demo Link : **https://aungttant.github.io/YourChoice/**
 **Myo Htet Oo** : https://github.com/myohtet00/<br>
 **Kyi Phyu Hnin Lwin** : https://github.com/kyiphyuhninlwin<br>
 **Zaw Myo Aung** : https://github.com/0ZawMyoAung<br>
+**Rise** : https://github.com/Rise-R<br>

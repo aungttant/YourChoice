@@ -1,22 +1,227 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<title>Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel = "icon" type = "image/png" href = "img/favicon.jpg">
+	<link rel="stylesheet" href="style.css">
+	<title>Your Choice</title>
+	
 </head>
 <body>
-	<h1>Menu Page</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<header>
+		<div  style="background-image: url(img/DSC06183.png); background-attachment: fixed; height: 700px; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+			<!-- navbar -->
+			<nav class="nav navbar fixed-top navbar-expand-lg navbar-dark p-md-3 bg-dark-transparent">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="img/logo2.png" height="50" alt="Your choise logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+							<li class="nav-item active footer-link-item">
+								<a class="nav-link text-dark" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item footer-link-item">
+								<a class="nav-link text-dark" href="menu.html">MENU</a>
+							</li>
+							<li class="nav-item footer-link-item">
+								<a class="nav-link text-dark" href="reservation.html">RESERVATION</a>
+							</li>
+							<li class="nav-item footer-link-item">
+								<a class="nav-link text-dark" href="contact.html">CONTACT US</a>
+							</li>
+							<li class="nav-item footer-link-item">
+								<a class="nav-link text-dark" href="about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div> <!--collapse end-->
+				</div> <!--container end-->
+			</nav> <!--navbar end-->
+			
+			<div class="container flex-column d-flex justify-content-center"style=" height: 600px;">
+				<div class="text-center py-4 shadow" >
+					<h1 class="text-white py-3">
+						Welcome to <span class="font-weight-bold">YOUR CHOICE</span> restaurant
+					</h1>
+					<h3 class="font-weight-normal text-white font-italic">
+						Choose Delicious Food With Sweet Memo!
+					</h3>
+					<div class="p-5">
+						<a href="reservation.html" class="btn btn-dark">RESERVATION</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="container mt-5 pt-5">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Breakfast</a></li>
+				<li class="breadcrumb-item"><a href="#">Lunch</a></li>
+				<li class="breadcrumb-item"><a href="#">Dinner</a></li>
+				<li class="breadcrumb-item"><a href="#">Beverages</a></li>
+			</ol>
+		</nav>
+		<div class="container-fluid">
+			<h1><center>Breakfast Recipes</center></h1>
+			<div class="row">
+				<div class="col-sm-12 col-lg-3 col-md-4">
+					<img src="img/toast.png">
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4">
+					<h2>Bread Toast</h2><br>
+					<ul>
+						<li>Simple Toast</li>
+						<li>Garlic Bread Toast</li>
+						<li>Egg Toast</li>
+						<li>Toast with strawberry jam</li>
+					</ul><br>
+					<p><b>Ingredients</b>: Brown bread, butter</p><br>
+					<i>Price: $11/ 15</i>
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4">
+					<img src="img/pancake.jpg" height="300px" width="300px">
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4">
+					<h2>Pancakes</h2><br>
+					<ul>
+						<li>Chocolate</li>
+						<li>Strawberry</li>
+						<li>Syrup</li>
+					</ul><br>
+					<p><b>Ingredients</b>: Butter, Milk, Vanila Extract, Salt, Egg, Sugar, Flour, Baking Powder</p><br>
+					<i>Price: $15</i>
+				</div>
+			</div>
+			<br><br>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<h2>Breakfast Recipes</h2>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, eos ratione libero deserunt aspernatur velit autem, cupiditate possimus dolore dolores repellat maxime non? Dolor temporibus numquam et dolorem eius est!
+			</div>
+			<div class="col-md-4 col-sm-12">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem atque nihil cum quisquam aliquid veniam doloribus, quaerat, nesciunt voluptatem reiciendis beatae repellat consequuntur itaque corrupti suscipit tempore? Numquam, ratione enim?
+			</div>
+			<div class="col-md-4 col-sm-12">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure est officia neque hic necessitatibus accusantium repellat error eligendi molestiae beatae sequi recusandae laborum a fugit commodi, saepe aut voluptates.
+			</div>
+			<div class="col-12 text-center">
+
+			</div>
+		</div>
+		<div class="row">
+
+		</div>
+		<div class="row">
+
+		</div>
+	</div>
+
+
+  <!-- footer 4-->
+  <footer class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 text-center">
+          <hr class="pt-5 mt-5">
+        </div>
+        <div class="col-lg-4 col-md-12 text-center">
+          <img src="img/logo1.png" height="150" alt="Your choise logo">
+        </div>
+        <div class="col-lg-4 col-md-12 text-center">
+          <hr class="pt-5 mt-5">
+        </div>
+      </div> <!--row end-->
+      
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-sm-12px-2 py-3">
+          <div class="text-center py-3">
+            <h4>WEEKLY NEWSLETTER</h4>
+          </div>
+          <form action="#">
+            <div class="form-row">
+              <div class="col-md col-sm-12 p-2">
+                <input type="text" class="form-control border-dark" placeholder="Name">
+              </div>
+              <div class="col-md-7 col-sm-12 p-2">
+                <input type="email" class="form-control border-dark" placeholder="Email">
+              </div>
+              <div class="col-12 p-2">
+                <button type="submit" class="col-12 btn border-dark custom-btn">SUBSCRIBE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div><!--row end-->
+      
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-sm-10 px-2 py-3">
+          <div class="d-flex justify-content-between py-3 my-2">
+            <a href="www.twitter.com" class="icon-link"><i class="fab fa-twitter"></i></a>
+            <a href="www.pinterest.com" class="icon-link"><i class="fab fa-pinterest"></i></a>
+            <a href="www.instagram.com" class="icon-link"><i class="fab fa-instagram"></i></a>
+            <a href="www.facebook.com" class="icon-link"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div> <!--row end-->
+      
+      <div class="row">
+        <div class="col-md-4 col-sm-12 py-4 text-sm-center text-md-left">
+          <div class="flex-column">
+            <div class="py-2 p-1 m-2"><a href="index.html" class="footer-link-item">HOME</a></div>
+            <div class="py-2 p-1 m-2"><a href="menu.html" class="footer-link-item">MENU</a></div>
+            <div class="py-2 p-1 m-2"><a href="reservation.html" class="footer-link-item">RESERVATION</a></div>
+            <div class="py-2 p-1 m-2"><a href="about.html" class="footer-link-item">ABOUT US</a></div>
+            <div class="py-2 p-1 m-2"><a href="contact.html" class="footer-link-item">CONTACT US</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 py-4 text-sm-center text-md-left">
+          <div class="flex-column">
+            <div class="py-2 p-1 m-2">
+              <i class="fas fa-phone-volume fs-30"></i>
+              <a href="tel:+111 222 333"><span class="footer-link-item">+111 222 333</span></a>
+            </div>
+            <div class="py-2 p-1 m-2">
+              <i class="fas fa-envelope-open-text fs-30"></i>
+              <a href="mailto:yourchoice@gmail.com"><span class="footer-link-item"> yourchoice@gmail.com</span></a>
+            </div>
+            <div class="py-2 p-1 m-2">
+              <i class="fas fa-map-marker fs-30"></i>
+              <a href="https://www.google.com/maps/place/16%C2%B047'45.3%22N+96%C2%B008'27.1%22E/@16.7959167,96.1386724,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d16.7959051!4d96.1408497"><span class="footer-link-item">Pyi Road (Eastern Territory), Yangon (16°47'45.3 N 96°08'27.1 E)</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 py-4 text-sm-center text-md-left">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.6130442316185!2d96.13867241486815!3d16.795916688435632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDQ3JzQ1LjMiTiA5NsKwMDgnMjcuMSJF!5e0!3m2!1smy!2smm!4v1630051883135!5m2!1smy!2smm" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div> <!--row end-->
+    </div> <!--container end-->
+    <div class="container-fluid bg-footer-dark text-white">
+      <div class="row">
+        <div class="col-12 text-center py-3 my-2">
+          <small>Copyright &copy; 2021 Your Choice. All rights reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer> <!--footer end-->
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	
 </body>
 </html>

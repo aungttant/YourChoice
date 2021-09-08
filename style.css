@@ -78,3 +78,77 @@ footer{
      color: #000000;
      
 }
+
+/* about */
+
+#bg{
+	background-image: url('img/aboutus/png4.jpg');
+	background-attachment: fixed;
+	background-position: center;
+}
+.about{
+	width: 100;
+	height: 100;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+.about .content img{
+	width: 600px;
+	max-width: 100%;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0, .5);
+}
+
+.about .content img:hover{
+	width: 630px;
+	max-width: 130%;
+}
+.text{
+	width: 550px;
+	max-width: 100%;
+}
+
+.content{
+	width: 1280px;
+	max-width: 95%;
+	align-items: center;
+	justify-content: space-around;
+}
+.text h10{
+	color: #F8D210;
+	font-size: 50px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.text p{
+	font-size: 18px;
+	margin-bottom: 70px;
+
+}
+
+#aboutlink{
+	color: #4C5270;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+#aboutlink:hover{
+	color: #F8D210;
+	font-size: 20px;
+}
+
+button{
+	background-color: #F8D210;
+	color: #4C5270;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-bottom: 70px;
+}
+
+button:hover{
+	text-decoration: underline;
+	padding: 6px 16px;
+}

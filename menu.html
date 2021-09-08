@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel = "icon" type = "image/png" href = "img/favicon.jpg">
 	<link rel="stylesheet" href="style.css">
-	<title>Your Choice</title>
+	<title>Menu: Your Choice</title>
 	
 </head>
 <body>
@@ -61,15 +61,17 @@
 	<div class="container mt-5 pt-5">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="#">Breakfast</a></li>
-				<li class="breadcrumb-item"><a href="#">Lunch</a></li>
-				<li class="breadcrumb-item"><a href="#">Dinner</a></li>
-				<li class="breadcrumb-item"><a href="#">Beverages</a></li>
+				<li class="breadcrumb-item"><a href="#breakfast">Breakfast</a></li>
+				<li class="breadcrumb-item"><a href="#lunch">Lunch & Dinner</a></li>
+				<li class="breadcrumb-item"><a href="#beverages">Dessert & Beverages</a></li>
 			</ol>
-		</nav>
+		</nav>	
+	<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+		<div class="container">
+		<!-- Breakfast -->
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
-				<h2>Breakfast Recipes</h2>
+				<h2 id="breakfast">Breakfast Recipes</h2><br>
 			</div>
 			<div class="col-sm-12 col-lg-4 col-md-4">
 				<div class="card-menu" style="width: 100%; height: auto;">
@@ -183,9 +185,208 @@
 					</div>
 				  </div>
 			</div>
+		</div>
+		<!-- Lunch & Dinner -->
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<h2 id="lunch">Lunch & Dinner Recipes</h2><br>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/bibimbap.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Bibimbap</h3>
+						  <p>Chicken, Pork, Seafood, Vegan</p>
+						<i>Price: $15</i>
+					  </p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/friedrice.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Fried Rice</h3><br>
+						  <p>Chicken, Pork, Egg, Seafood</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/friedchicken.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Fried Chicken Rice</h3><br>
+						  <p>with Bacon and Eggs</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
 		</div>	
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/kimchifriedrice.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Kimchi Fried Rice</h3>
+						  <p>Chicken, Pork, Egg, Soup</p>
+						<i>Price: $15</i>
+					  </p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/hotpot.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Hotpot Set</h3><br>
+						  <p>Spicy, Sweet, Tomyum</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/spaghetti.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Spaghetti</h3><br>
+						  <p>Spicy, Seafood</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/marlar.PNG" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Mar Lar Shan Kaw</h3>
+						  <p>Chicken, Pork, Seafood, Beef</p>
+						<i>Price: $15</i>
+					  </p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/crab.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Spicy Crab Curry</h3><br>
+						  <p>+ Rice</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/curry.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Coconut Chicken Curry</h3><br>
+						  <p>Spicy, Sweet</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<!-- Beverage -->
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<h2 id="beverages">Desserts & Beverages</h2><br>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/icecream.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Ice Cream</h3>
+						  <p>Chocolate, Strawberry, Vanilla, Bubble Gum</p>
+						<i>Price: $15</i>
+					  </p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/icecreamcake.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						<h3>Ice Cream Cake</h3>
+						<p>Chocolate, Strawberry, Vanilla, Oreo, Coffee</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/sundae.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Sundae</h3><br>
+						  <p>with Fruitloops, Brownnie, Strawberry, Caramel</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+		</div>	
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/beverages.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Beverages</h3>
+						  <p>Cocacola, Pepsi, Sprite, Marinda</p>
+						<i>Price: $15</i>
+					  </p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/smoothies.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Smoothies</h3><br>
+						  <p>Strawberry, Chocolate, Fruits</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-4">
+				<div class="card-menu" style="width: 100%; height: auto;">
+					<img src="img/menupage/juices.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <p class="card-text">
+						  <h3>Juices</h3><br>
+						  <p>Fresh Fruits</p>
+						<i>Price: $15</i>
+					</p>
+					</div>
+				  </div>
+			</div>
+		</div>
 	</div>
-		
+	</div>
+	</div>	
 	
 
 
